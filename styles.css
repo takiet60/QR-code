@@ -39,8 +39,7 @@ body {
 }
 
 .card {
-  width: 90%;
-  max-width: 316px;
+  width: min(90%, 19.75rem);
   background-color: var(--clr-white);
   padding: 1rem;
   border-radius: 20px;
